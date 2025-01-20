@@ -524,7 +524,7 @@ body{
     font-size: 70px;
     line-height: 1;
     text-align: center;
-    display: grid;
+    display: inline;
 }
 
 .contact-text h2 span{
@@ -535,6 +535,7 @@ body{
     color: rgb(228,228,228);
     font-size: 20px;
     font-weight: 600;
+    margin-top: 95px;
 }
 
 .contact-text p{
