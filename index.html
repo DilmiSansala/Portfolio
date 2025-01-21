@@ -16,7 +16,7 @@
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
             
-               <a href="#home" style="--i:1"class="active">Home</a>
+               <a href="#" style="--i:1"class="active">Home</a>
                 <a href="#about"style="--i:2">About</a>
                 <a href="#Skills"style="--i:3">Skills</a>
                 <a href="#portfolio"style="--i:4">Projects</a>
@@ -49,7 +49,7 @@
       
     <section class="about" id="about">
         <div class="about-img">
-            <img src="Me2.jpg" alt="">
+            <img src="assets/Me2.jpg" alt="">
          </div>
          <div class="about-text">
              <h2 >About<span>Me</span></h2>
@@ -170,7 +170,7 @@
         
         <div class="portfolio-content">
             <div class="row">
-                <img src="s1.avif">
+                <img src="assets/s1.avif">
                 <div class="layer">
                     <h5>Shopping Cart</h5>
                     <p>Desserts Page - Interactive Shopping Cart Web Application 
@@ -184,7 +184,7 @@
                         </div>
             </div>
             <div class="row">
-                <img src="e3.jpg">
+                <img src="assets/e3.jpg">
                 <div class="layer">
                     <h5>Order Management System</h5>
                     <p>Order Management System, built using the MERN stack, designed to help 
@@ -195,7 +195,7 @@
                         </div>
             </div>
             <div class="row">
-                <img src="t5.jpg">
+                <img src="assets/t5.jpg">
                 <div class="layer">
                     <h5>Task Management App</h5>
                     <p>Introducing Task Manager a sleek and interactive To-Do List Application designed to simplify task management and boost productivity.
@@ -219,10 +219,9 @@
         <p>Have a project in mind or just want to say hi? Feel free to reach out to me.
              I'm always open to new opportunities and collaborations!</p>
              <div class="contact-list">
-                <a href="mailto:dilmisansala21@gmail.com">
-                    <i class='bx bxs-send'></i> dilmisansala21@gmail.com
-                </a>
-               <!---- <li><i class='bx bxs-phone'></i>0719208758</li> -->
+                 
+                  <!----    <i class='bx bxs-send'></i> dilmisansala21@gmail.com
+                  <li><i class='bx bxs-phone'></i>0719208758</li> -->
              </div>
              <div class="contact-icons">
                 <a href=""><i class='bx bxl-facebook-circle'></i></a>
@@ -233,12 +232,13 @@
     </div>
 
     <div class="contact-form">
-        <form action="mailto:dilmisansala21@gmail.com" method="post" enctype="text/plain">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cd4ad6c9-e3b6-42b6-8de6-5f2be658763a">
            
-                <input type="" placeholder="Enter Your Name" required>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
                 <input type="email" placeholder="Enter Your Email" required>
-                <input type="" placeholder="Enter Your Subject">
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="text" placeholder="Enter Your Subject">
+                <textarea name="message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
            
                 <input type="submit" value="submit" class="send">
             
